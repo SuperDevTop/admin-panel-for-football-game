@@ -12,12 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -34,9 +29,10 @@ use App\Http\Controllers\ChangePassword;
 Route::get('/', function () {
 	return view('index');
 });
+
 Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register');
 Route::post('/register', [RegisterController::class, 'store'])->middleware('guest')->name('register.perform');
-Route::get('/login', [LoginController::class, 'show'])->middleware('guest')->name('login');
+// Route::get('/login', [LoginController::class, 'show'])->middleware('guest')->name('login');
 Route::post('/login', [LoginController::class, 'login'])->middleware('guest')->name('login.perform');
 Route::get('/reset-password', [ResetPassword::class, 'show'])->middleware('guest')->name('reset-password');
 Route::post('/reset-password', [ResetPassword::class, 'send'])->middleware('guest')->name('reset.perform');

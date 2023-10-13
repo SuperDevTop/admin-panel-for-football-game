@@ -1079,9 +1079,9 @@ address { font-style: italic; }
 ============================================= */
 .tg-modalbox.fade {background:rgba(0, 0, 0, 0.80)}
 .tg-modalbox.fade .modal-dialog{
-	width:40vw;
-	top:25%;
-	left:30vw;
+	width:34vw;
+	top:20%;
+	left:33vw;
 	overflow:hidden;
 	background:#fff;
 	position:absolute;
@@ -1362,7 +1362,7 @@ address { font-style: italic; }
 	position:absolute;
 }
 .tg-logo{
-	width:97px;
+	width:200px;
 	height:160px;
 	margin:0 auto;
 	display:block;

@@ -21,20 +21,30 @@ class LoginController extends Controller
 
     public function login(Request $request)
     {
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
+        request()->validate([
+            'email' => 'required|email',
+            'password' => 'required|'
         ]);
 
-        if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
+        $credentials = $request->only('email', 'password');
+        
+        if (Auth::attempt($credentials)) {
+            
             $request->session()->regenerate();
-
-            return redirect()->intended('dashboard');
+            
+            return response()->json(['success' => true]);
+            
         }
 
-        return back()->withErrors([
-            'email' => 'The provided credentials do not match our records.',
-        ]);
+        return response()->json([
+                                    'success' => false,
+                                    'email' => 'The provided credentials do not match our records.'
+                                ]);
+
+        // return redirect()->back()->withErrors([
+        //     'email' => 'The provided credentials do not match our records.',
+        // ]);
+
     }
 
     public function logout(Request $request)
@@ -44,6 +54,6 @@ class LoginController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        return redirect('/login');
+        return redirect('/');
     }
 }
