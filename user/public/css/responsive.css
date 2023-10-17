@@ -134,7 +134,7 @@
 }
 @media (max-width:991px){
 	.tg-logo {
-		width: 70px;
+		width: 80vw;
 		height:auto;
 	}
 	.tg-colhalf {padding:30px 40px 15px 0;}
@@ -480,7 +480,7 @@
 	.tg-footerinfobox .tg-bgboxtwo{display:none;}
 	.tg-footerinfobox .tg-bgboxone{width:100%;}
 	.tg-footerinfo .tg-footercol{padding:20px 0;}
-	.tg-home-slider .swiper-slide figure{ display:none;}
+	/* .tg-home-slider .swiper-slide figure{ display:none;} */
 	.tg-home-slidertwo  {padding: 20px 0;}
 	.tg-home-slidertwo .tg-slider-content h1 {
 		font-size: 30px;

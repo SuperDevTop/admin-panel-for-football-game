@@ -231,8 +231,8 @@
                                     <i class="fa fa-bars"></i>
                                 </button>
                                 <strong class="tg-logo">
-                                    <a href=""><img style="margin-top: 2vh" src="images/logo.png"
-                                            alt="image description"></a>
+                                    <img style="margin-top: 10vh; border-radius: 10px" src="images/home1.png"
+                                            alt="logo image">
                                 </strong>
                             </div>
                             <div id="tg-navigation" class="tg-navigation">
@@ -316,7 +316,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <figure class="floating">
-                                <img src="images/slider/img-01.png" alt="image description">
+                                <img src="images/slider/img-01.png" style="margin-top: 15vh" alt="image description">
                             </figure>
                             <!-- <div class="tg-slider-content">
         <h1>alive and <span>kickin</span></h1>
@@ -382,24 +382,37 @@
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <figure>
-                                            <img src="images/img-01.jpg" alt="image description">
+                                            <img src="images/home2.png" alt="image description">
                                         </figure>
                                     </div>
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <div class="tg-contentbox">
                                             <div class="tg-section-heading">
-                                                <h2>consectetur adipisicing elit sed do eiusmid tempor incididunt labore
+                                                <h2>Dispute grandes partidas com outros jogadores em Futebol Arena
                                                 </h2>
                                             </div>
                                             <div class="tg-description">
-                                                <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utia
-                                                    labore et dolore magna aliqua enim ad minim veniam quistrud on
-                                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                                    irure dolor in reprehenderit in voluptate velit esse cillum doloreeu
-                                                    fugiat nulla pariatur cepteur sint occaecat.</p>
-                                            </div>
-                                            <div class="tg-btnbox">
-                                                <a class="tg-btn" href="#"><span>read more</span></a>
+                                                <p>O PVP de Futebol de Botão mais emocionante e inovador do mercado.
+                                                    Aposte, vença,
+                                                    e conquiste a glória!
+                                                <p>
+
+                                                    Se prepare, entre em campo, dispute grandes partidas com outros
+                                                    jogadores e mostre quem é o verdadeiro campeão do Futebol Arena.
+                                                <p>
+
+                                                    O Futebol Arena é um Jogo de Aposta PVP de Futebol de Botão super
+                                                    inovador onde você só depende de você mesmo para ganhar, onde a
+                                                    glória é conquistada botão a botão. Desafie seus adversários, faça
+                                                    suas apostas, vença e escreva seu próprio legado na história do
+                                                    Futebol de Botão!
+                                                <p>
+                                                    FUTEBOL ARENA NÃO É UM JOGO DE AZAR, É UM JOGO PVP ONDE UM JOGADOR
+                                                    APOSTA CONTRA OUTRO JOGADOR ON-LINE.
+                                                    QUE VENÇA O MELHOR
+                                                <p>
+
+                                                    ESSE JOGO É PARA MAIORES DE 18 ANOS 🔞</p>
                                             </div>
                                         </div>
                                     </div>
@@ -427,7 +440,7 @@
                 <div class="tg-footerinfo">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-4">
+                            {{-- <div class="col-sm-4">
                                 <div class="tg-footercol">
                                     <div class="tg-posttitle">
                                         <h3>signup newsletter</h3>
@@ -460,9 +473,9 @@
                                         <a class="tg-tag" href="#">soccer</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="tg-footercol">
+                            </div> --}}
+                            <div class="col-lg-3 col-sm-1">
+                                {{-- <div class="tg-footercol">
                                     <div class="tg-posttitle">
                                         <h3>Top players</h3>
                                     </div>
@@ -522,29 +535,27 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-lg-6 col-sm-10">
                                 <div class="tg-footercol">
                                     <div class="tg-haslayout">
                                         <strong class="tg-logo">
-                                            <a href="#">
-                                                <img src="images/logo2.png" alt="image description">
-                                            </a>
+                                            <img src="images/logo2.png" alt="image description">
                                         </strong>
                                     </div>
                                     <div class="tg-description">
-                                        <p>Consectetur adipisicing elit sedtado eiusmod dunt ut labore et dolore magna
-                                            aliqua enim minim veniami quis nostrud.</p>
+                                        <p>O PVP de Futebol de Botão mais emocionante e inovador do mercado. Aposte,
+                                            vença, e conquiste a glória! </p>
                                     </div>
                                     <ul class="tg-contactinfo">
                                         <li>
                                             <i class="fa fa-home"></i>
-                                            <address>123 Eccles Old Road, New Salford Road London, Uk, M6 7AF</address>
+                                            <address>Rua Frei Gonzaga 1251, Recife, Pernambuco, Brazil,</address>
                                         </li>
                                         <li>
                                             <i class="fa fa-envelope-o"></i>
-                                            <a href="info%40domain.html">info@domain.com</a>
+                                            info@futebolarena.com
                                         </li>
                                         <li>
                                             <i class="fa fa-phone"></i>
@@ -558,19 +569,9 @@
                 </div>
             </div>
             <div class="tg-footerbar">
-                <div class="container">
-                    <span class="tg-copyright"><a target="_blank" href="">Futebol Areona</a></span>
-                    <!-- <nav class="tg-footernav">
-      <ul>
-       <li><a href="#">Main</a></li>
-       <li><a href="#">Team</a></li>
-       <li><a href="#">Buy Tickets</a></li>
-       <li><a href="#">Match Results</a></li>
-       <li><a href="#">Upcoming Matches</a></li>
-       <li><a href="#">Shop</a></li>
-       <li><a href="#">Contact</a></li>
-      </ul>
-     </nav> -->
+                <div class="container text-center">
+                    <div class="pt-2 pb-2" style="color: #ffcc33; padding: 20px 0">Copyright @2023 Futebol Areona
+                    </div>
                 </div>
             </div>
         </footer>
@@ -596,12 +597,11 @@
                         @csrf
                         @method('post')
                         <fieldset>
-							<span class="text-danger" id="login_email_error"></span><br>
+                            <span class="text-danger" id="login_email_error"></span><br>
                             <div class="form-group">
-                                <input type="text" name="email" class="form-control"
-                                    placeholder="email">
+                                <input type="text" name="email" class="form-control" placeholder="email">
                             </div>
-							<span class="text-danger" id="login_password_error"></span><br>
+                            <span class="text-danger" id="login_password_error"></span><br>
                             <div class="form-group">
                                 <input type="password" name="password" class="form-control" placeholder="password">
                             </div>
@@ -616,7 +616,8 @@
                                 </a>
                             </div>
                             <div class="form-group">
-                                <button class="tg-btn tg-btn-lg" type="button" onclick="onLogin()">Login Now</button>
+                                <button class="tg-btn tg-btn-lg" type="button" onclick="onLogin()">Login
+                                    Now</button>
                             </div>
                             <div class="tg-description">
                                 <p>Don't have an account? <a href="#">Signup</a></p>
@@ -637,7 +638,7 @@
                     <form class="tg-loginform" id="registerForm" method="post"
                         action="{{ route('register.perform') }}">
                         @csrf
-						@method('post')
+                        @method('post')
                         <fieldset>
                             {{-- @if ($errors->has('username')) --}}
                             <span class="text-danger" id="name_error"></span><br>
@@ -740,7 +741,7 @@
         }
 
         function onLogin(e) {
-			console.log('login');
+            console.log('login');
             var form = document.getElementById('loginForm');
             var formData = new FormData(form);
 
@@ -770,7 +771,7 @@
                     $('#login_email_error').text('')
                     // Handle validation errors
                     var errors = xhr.responseJSON.errors;
-					console.log(errors);
+                    console.log(errors);
                     // Display errors in your modal or wherever you want
                     if (errors.hasOwnProperty('password')) {
                         $('#login_password_error').text(errors.password[0]);

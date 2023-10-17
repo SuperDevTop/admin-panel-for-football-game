@@ -1089,6 +1089,13 @@ address { font-style: italic; }
 	/* margin:0 0 0 -385px; */
 	border-top:3px solid;
 }
+
+@media only screen and (max-width: 768px) {
+	.tg-modalbox.fade .modal-dialog{
+		width: 90vw;
+		left: 5vw;
+	}
+}
 .tg-locationsearch .modal-dialog{
 	top:50%;
 	border:0;
