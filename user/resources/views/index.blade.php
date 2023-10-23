@@ -13,6 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -119,7 +120,7 @@
                             <nav id="tg-topaddnav" class="tg-topaddnav">
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                        data-target="#tg-addnavigationm-mobile">
+                                        data-target="#tg-addnavigationm-mobile" style="background: #99be5e">
                                         <i class="fa fa-arrow-right"></i>
                                     </button>
                                 </div>
@@ -132,67 +133,10 @@
                                                         data-target="#tg-login">login</a></li>
                                                 <li><a href="javascript().html" data-toggle="modal"
                                                         data-target="#tg-register">Register</a></li>
-                                                <!-- <li>
-             <div class="tg-cart">
-              <a href="javascript:void(0)" class="dropdown-toggle" id="tg-cartdropdown" data-toggle="dropdown">
-               <i class="fa fa-shopping-cart"></i>
-              </a>
-              <div class="tg-cartcontent dropdown-menu" aria-labelledby="tg-cartdropdown">
-               <ul>
-                <li>
-                 <figure>
-                  <a href="#">
-                   <img src="images/thumbnails/img-01.jpg" alt="image description">
-                  </a>
-                 </figure>
-                 <div class="tg-product-detail">
-                  <h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
-                  <span class="tg-price">Price: $23</span>
-                  <a class="tg-delete" href="#"></a>
-                 </div>
-                </li>
-                <li>
-                 <figure>
-                  <a href="#">
-                   <img src="images/thumbnails/img-02.jpg" alt="image description">
-                  </a>
-                 </figure>
-                 <div class="tg-product-detail">
-                  <h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
-                  <span class="tg-price">Price: $23</span>
-                  <a class="tg-delete" href="#"></a>
-                 </div>
-                </li>
-                <li>
-                 <figure>
-                  <a href="#">
-                   <img src="images/thumbnails/img-03.jpg" alt="image description">
-                  </a>
-                 </figure>
-                 <div class="tg-product-detail">
-                  <h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
-                  <span class="tg-price">Price: $23</span>
-                  <a class="tg-delete" href="#"></a>
-                 </div>
-                </li>
-                <li>
-                 <div class="tg-btnbox">
-                  <strong class="tg-carttotal">Total: $134</strong>
-                  <a class="tg-btn" href="#"><span>checkout</span></a>
-                 </div>
-                </li>
-               </ul>
-              </div>
-             </div>
-            </li> -->
-                                                <li>
-                                                    <a id="tg-btn-search" href="javascript:void(0)"><i
-                                                            class="fa fa-search"></i></a>
-                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
-                                    <div class="tg-colhalf">
+                                    {{-- <div class="tg-colhalf">
                                         <ul class="tg-socialicons">
                                             <li>
                                                 <a href="#">
@@ -220,19 +164,19 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </nav>
                         </div>
                         <nav id="tg-nav" class="tg-nav brand-center">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#tg-navigationm-mobile">
+                                    data-target="#tg-navigationm-mobile" style="background-color: #99be5e">
                                     <i class="fa fa-bars"></i>
                                 </button>
                                 <strong class="tg-logo">
-                                    <img style="margin-top: 10vh; border-radius: 10px" src="images/home1.png"
-                                            alt="logo image">
+                                    <img style=" border-radius: 5px; opacity: 0.8" src="images/home1.png"
+                                        alt="logo image">
                                 </strong>
                             </div>
                             <div id="tg-navigation" class="tg-navigation">
@@ -312,51 +256,11 @@
                 <img src="images/bg-pattran.png" alt="image desctription">
             </div>
             <div id="tg-home-slider" class="tg-home-slider tg-haslayout">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="container">
-                            <figure class="floating">
-                                <img src="images/slider/img-01.png" style="margin-top: 15vh" alt="image description">
-                            </figure>
-                            <!-- <div class="tg-slider-content">
-        <h1>alive and <span>kickin</span></h1>
-        <div class="tg-btnbox">
-         <h2>from june 27</h2>
-         <a class="tg-btn" href="#"><span>read more</span></a>
-         <a class="tg-btn" href="#"><span>book my ticket</span></a>
-        </div>
-       </div> -->
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="container">
-                            <figure class="floating">
-                                <img src="images/slider/img-01.png" alt="image description">
-                            </figure>
-                            <div class="tg-slider-content">
-                                <h1>alive and <span>kickin</span></h1>
-                                <div class="tg-btnbox">
-                                    <h2>from june 27</h2>
-                                    <a class="tg-btn" href="#"><span>read more</span></a>
-                                    <a class="tg-btn" href="#"><span>book my ticket</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="container">
-                            <figure class="floating">
-                                <img src="images/slider/img-01.png" alt="image description">
-                            </figure>
-                            <div class="tg-slider-content">
-                                <h1>alive and <span>kickin</span></h1>
-                                <div class="tg-btnbox">
-                                    <h2>from june 27</h2>
-                                    <a class="tg-btn" href="#"><span>read more</span></a>
-                                    <a class="tg-btn" href="#"><span>book my ticket</span></a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <figure class="floating">
+                            <img src="images/slider/img-01.png" style="margin-top: 15vh" alt="image description">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -587,7 +491,7 @@
   LightBoxes Start
  *************************************-->
     <div class="tg-modalbox modal fade" id="tg-login" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog" role="document" style="margin-left: 0% !important">
             <div class="tg-modal-content">
                 <div class="tg-formarea">
                     <div class="tg-border-heading">
@@ -629,7 +533,7 @@
         </div>
     </div>
     <div class="tg-modalbox modal fade" id="tg-register" tabindex="-1" role="dialog">
-        <div class="modal-dialog" style="top: 5% !important" role="document">
+        <div class="modal-dialog" style="top: 7% !important; margin-left: 0%" role="document">
             <div class="tg-modal-content">
                 <div class="tg-formarea">
                     <div class="tg-border-heading">
